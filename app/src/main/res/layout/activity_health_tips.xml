@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Health_Tips">
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="239dp"
+        android:layout_height="77dp"
+        android:gravity="center"
+        android:text="HEALTH TIPS"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.061" />
+
+    <ScrollView
+        android:layout_width="409dp"
+        android:layout_height="590dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.886">
+
+
+        <TextView
+            android:id="@+id/textView50"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="\n1.Exercise regularly: Engage in moderate-intensity physical activity for at least 30 minutes a day, five days a week. Regular exercise can help you manage your weight, improve your cardiovascular health, and reduce your risk of chronic diseases.
+    \n2.Stay hydrated: Drink plenty of water and avoid sugary drinks. Staying hydrated can help keep your body functioning properly and prevent dehydration.
+    \n3.Get enough sleep: Aim for 7-8 hours of sleep each night. Getting enough rest can help reduce stress levels, improve cognitive function, and boost your immune system.
+    \n4.Manage stress: Find healthy ways to manage stress, such as practicing mindfulness, meditation, or yoga. Stress can have a negative impact on your mental and physical health if left unmanaged.
+    \n5.Don't smoke or use tobacco products: Smoking and using tobacco products can increase your risk of various health problems, including lung cancer, heart disease, and stroke.
+    \n6.Limit alcohol consumption: Drinking too much alcohol can increase your risk of liver disease, cancer, and other health problems. It's recommended to limit alcohol consumption to one drink per day for women and two drinks per day for men.\n"
+            android:textSize="24dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.904" />
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

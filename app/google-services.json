@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1066397745968",
+    "project_id": "fitbuddy-a11f3",
+    "storage_bucket": "fitbuddy-a11f3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1066397745968:android:4c308eb30dab010ab4bef5",
+        "android_client_info": {
+          "package_name": "com.example.fitbuddy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1066397745968-5u6b706her2glbfpbr3v7an773dpskqr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.fitbuddy",
+            "certificate_hash": "3f7c4ddff4cc0ccf493d2ce519ea325983b01d81"
+          }
+        },
+        {
+          "client_id": "1066397745968-qcslqng9mggm26t5c6rljhipvon5jo32.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBECSgVzQM_dYRS-IGga453O-qNIugR5AE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1066397745968-qcslqng9mggm26t5c6rljhipvon5jo32.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
